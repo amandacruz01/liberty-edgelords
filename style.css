@@ -5,8 +5,7 @@ body {
     background-color: crimson;
 }
 #container {
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
     background-color: aqua;
 }
 #logo-search {

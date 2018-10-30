@@ -15,10 +15,20 @@ body {
 }
 #search {
     float: left;
-    padding: 1em;
+    padding: 2.2em;
 }
 #search input {
     padding: 0.4em;
+}
+h1 {
+    float: left;
+    padding-left: .7em;
+    padding-top: .4em;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 #navigation {
     background-color: rgb(101, 131, 160);
@@ -36,4 +46,11 @@ body {
 #navigation ul li:hover {
     background-color: rgb(253, 255, 238);
     cursor: pointer;
+}footer {
+    background-color: white;
+    text-align: center;
+}
+footer p {
+   padding: 10px;
+   margin: 0;
 }

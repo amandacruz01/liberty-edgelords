@@ -16,6 +16,7 @@ body {
 #search {
     float: left;
     padding: 2.2em;
+    cursor: pointer;
 }
 #search input {
     padding: 0.4em;

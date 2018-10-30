@@ -16,7 +16,6 @@ body {
 #search {
     float: left;
     padding: 2.2em;
-    cursor: pointer;
 }
 #search input {
     padding: 0.4em;
@@ -47,7 +46,36 @@ h1 {
 #navigation ul li:hover {
     background-color: rgb(253, 255, 238);
     cursor: pointer;
-}footer {
+}
+main {
+    width: 100%;
+    min-height: 450px;
+}
+main {
+    background-color: white;
+}
+main > aside {
+    float: left;
+    width: 20%;
+    background-color: rgb(57, 75, 114);
+    padding: 20px;
+}
+main > section {
+    background-color:  rgb(189, 241, 45);
+    float: left; 
+    width: 80%;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+aside select {
+    width: 100%;
+}
+aside hr {
+    border: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+footer {
     background-color: white;
     text-align: center;
 }

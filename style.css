@@ -2,17 +2,16 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgba(161, 43, 43, 0.281);
+    background-color: rgba(153, 243, 250, 0.671);
 
 }
 #container {
     width: 90%;
-    background-color: rgb(189, 241, 45);
     margin: 0 auto;
 }
 #logo-search {
     width: 100%;
-    background-color: gray;
+    background-color: rgb(6, 81, 179);
     border-bottom: solid black;
 }
 #search {
@@ -34,21 +33,25 @@ h1 {
     display: table;
 }
 #navigation {
-    background-color: rgb(101, 131, 160);
+    background-color: rgb(226, 233, 255);
     border-bottom: solid black;
 }
 #navigation ul {
     list-style: none;
     padding: 0;
     margin: 0;
+
   }
 #navigation ul li {
     float: left;
     padding: 10px 20px;
-    border-right: 1px solid rgb(56, 55, 55);  
-}  
+    border-right: 1px solid black;
+}
+.text-align {
+    text-align: center;
+}
 #navigation ul li:hover {
-    background-color: rgb(253, 255, 238);
+    background-color:rgb(255, 255, 255);
     cursor: pointer;
 }
 main {
@@ -58,26 +61,12 @@ main {
 main {
     background-color: white;
 }
-main > aside {
-    float: left;
-    width: 20%;
-    background-color: rgb(57, 75, 114);
-    padding: 20px;
-}
 main > section {
-    background-color:  rgb(189, 241, 45);
+    background-color:  rgb(182, 182, 182);
     float: left; 
-    width: 80%;
+    width: 100%;
     padding: 20px;
     color: rgb(0, 0, 0);
-}
-aside select {
-    width: 100%;
-}
-aside hr {
-    border: none;
-    border-bottom: 1px solid black;
-    padding-bottom: 5px;
 }
 footer {
     background-color: white;

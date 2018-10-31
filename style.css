@@ -13,6 +13,7 @@ body {
 #logo-search {
     width: 100%;
     background-color: gray;
+    border-bottom: solid black;
 }
 #search {
     float: left;
@@ -34,6 +35,7 @@ h1 {
 }
 #navigation {
     background-color: rgb(101, 131, 160);
+    border-bottom: solid black;
 }
 #navigation ul {
     list-style: none;
@@ -61,7 +63,6 @@ main > aside {
     width: 20%;
     background-color: rgb(57, 75, 114);
     padding: 20px;
-    border: solid black;
 }
 main > section {
     background-color:  rgb(189, 241, 45);

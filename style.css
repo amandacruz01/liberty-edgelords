@@ -2,7 +2,8 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(161, 43, 43, 0.281);
+
 }
 #container {
     width: 90%;
@@ -24,6 +25,7 @@ h1 {
     float: left;
     padding-left: .7em;
     padding-top: .4em;
+    font-family: 'Monoton', cursive;
 }
 .clearfix::after {
     content: "";
@@ -59,6 +61,7 @@ main > aside {
     width: 20%;
     background-color: rgb(57, 75, 114);
     padding: 20px;
+    border: solid black;
 }
 main > section {
     background-color:  rgb(189, 241, 45);

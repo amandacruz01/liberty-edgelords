@@ -21,6 +21,11 @@ body {
 #search input {
     padding: 0.4em;
 }
+.circle {
+    background-color: white;
+    border: solid black 1em;
+    border-radius: 4px;
+}
 h1 {
     float: left;
     padding-left: .7em;

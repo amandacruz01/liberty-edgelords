@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgba(153, 243, 250, 0.671);
+    background-color: rgba(188, 247, 252, 0.671);
 
 }
 #container {
@@ -11,8 +11,8 @@ body {
 }
 #logo-search {
     width: 100%;
-    background-color: rgb(6, 81, 179);
-    color: rgb(206, 206, 206);
+    background-color: rgb(32, 107, 206);
+    color: rgb(0, 0, 0);
 }
 #search {
     float: left;
@@ -76,11 +76,12 @@ main {
     background-color: white;
 }
 main > section {
-    background-color:  rgb(139, 139, 139);
+    background-color:  rgb(172, 171, 171);
     float: left; 
     width: 100%;
     padding: 20px;
-    color: rgb(206, 206, 206);
+    color: rgb(75, 75, 75);
+    font-family: 'Homenaje', sans-serif;
 }
 footer {
     background-color:rgb(153, 243, 250, 0.671);

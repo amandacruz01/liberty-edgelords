@@ -1,111 +1,227 @@
 var memes = [
-
     {
         image: "caesar.jpg", 
         title: "Julius Caesar",
+        month:"January",
+        year:"2016",
+        description:"",
         categories: ["Rome","Halo"],
         meme_id: "1"
     },
     {
         image: "austria.jpg", 
         title: "Austria",
+        month:"Febuary",
+        year:"2016",
+        description:"",
         categories: ["ww1"],
         meme_id: "2"
     },
     {
         image: "french.jpg", 
         title: "Renault",
+        month:"March",
+        year:"2016",
+        description:"",
         categories: [""],
         meme_id: "3"
     },
     {
-        image: "", 
-        title: "",
-        categories: [""],
-        meme_id: "4"
+        image:"",
+        title:"",
+        month:"April",
+        year:"2016",
+        description:"",
+        categories:"",
+        meme_id:""
     },
     {
-        image: "", 
-        title: "",
-        categories: [""],
-        meme_id: ""
+        image:"",
+        title:"",
+        month:"May",
+        year:"2016",
+        description:"",
+        categories:"",
+        meme_id:""
     },
     {
-        image: "", 
-        title: "",
-        categories: [""],
-        meme_id: ""
+        image:"",
+        title:"",
+        month:"June",
+        year:"2016",
+        description:"",
+        categories:"",
+        meme_id:""
     },
     {
-        image: "", 
-        title: "",
-        categories: [""],
-        meme_id: ""
+        image:"",
+        title:"",
+        month:"July",
+        year:"2016",
+        description:"",
+        categories:"",
+        meme_id:""
     },
     {
-        image: "", 
-        title: "",
-        categories: [""],
-        meme_id: ""
+        image:"",
+        title:"",
+        month:"August",
+        year:"2016",
+        description:"",
+        categories:"",
+        meme_id:""
     },
     {
-        image: "", 
-        title: "",
-        categories: [""],
-        meme_id: ""
+        image:"",
+        title:"",
+        month:"September",
+        year:"2016",
+        description:"",
+        categories:"",
+        meme_id:""
     },
     {
-        image: "", 
-        title: "",
-        categories: [""],
-        meme_id: ""
+        image:"",
+        title:"",
+        month:"October",
+        year:"2016",
+        description:"",
+        categories:"",
+        meme_id:""
     },
     {
-        image: "", 
-        title: "",
-        categories: [""],
-        meme_id: ""
+        image:"",
+        title:"",
+        month:"November",
+        year:"2016",
+        description:"",
+        categories:"",
+        meme_id:""
     },
     {
-        image: "", 
-        title: "",
-        categories: [""],
-        meme_id: ""
+        image:"",
+        title:"",
+        month:"December",
+        year:"2016",
+        description:"",
+        categories:"",
+        meme_id:""
     },
     {
-        image: "", 
-        title: "",
-        categories: [""],
-        meme_id: ""
+        image:"",
+        title:"",
+        month:"January",
+        year:"2017",
+        description:"",
+        categories:"",
+        meme_id:""
     },
     {
-        image: "", 
-        title: "",
-        categories: [""],
-        meme_id: ""
+        image:"",
+        title:"",
+        month:"Febuary",
+        year:"2017",
+        description:"",
+        categories:"",
+        meme_id:""
     },
     {
-        image: "", 
-        title: "",
-        categories: [""],
-        meme_id: ""
+        image:"",
+        title:"",
+        month:"March",
+        year:"2017",
+        description:"",
+        categories:"",
+        meme_id:""
     },
     {
-        image: "", 
-        title: "",
-        categories: [""],
-        meme_id: ""
+        image:"",
+        title:"",
+        month:"April",
+        year:"2017",
+        description:"",
+        categories:"",
+        meme_id:""
     },
     {
-        image: "", 
-        title: "",
-        categories: [""],
-        meme_id: ""
+        image:"",
+        title:"",
+        month:"May",
+        year:"2017",
+        description:"",
+        categories:"",
+        meme_id:""
     },
     {
-        image: "", 
-        title: "",
-        categories: [""],
-        meme_id: ""
+        image:"",
+        title:"",
+        month:"June",
+        year:"2017",
+        description:"",
+        categories:"",
+        meme_id:""
+    },
+    {
+        image:"",
+        title:"",
+        month:"July",
+        year:"2017",
+        description:"",
+        categories:"",
+        meme_id:""
+    },
+    {
+        image:"",
+        title:"",
+        month:"August",
+        year:"2017",
+        description:"",
+        categories:"",
+        meme_id:""
+    },
+    {
+        image:"",
+        title:"",
+        month:"September",
+        year:"2017",
+        description:"",
+        categories:"",
+        meme_id:""
+    },
+    {
+        image:"",
+        title:"",
+        month:"October",
+        year:"2017",
+        description:"",
+        categories:"",
+        meme_id:""
+    },
+    {
+        image:"",
+        title:"",
+        month:"November",
+        year:"2017",
+        description:"",
+        categories:"",
+        meme_id:""
+    },
+    {
+        image:"",
+        title:"",
+        month:"December",
+        year:"2017",
+        description:"",
+        categories:"",
+        meme_id:""
+    },
+    {
+        image:"",
+        title:"",
+        month:"",
+        year:"2018",
+        description:"",
+        categories:"",
+        meme_id:""
     },
 ];

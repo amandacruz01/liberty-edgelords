@@ -12,7 +12,7 @@ body {
 #logo-search {
     width: 100%;
     background-color: rgb(6, 81, 179);
-    border-bottom: solid black;
+    color: rgb(206, 206, 206);
 }
 #search {
     float: left;
@@ -34,13 +34,12 @@ h1 {
 }
 #navigation {
     background-color: rgb(226, 233, 255);
-    border-bottom: solid black;
+    border: solid black;
 }
 #navigation ul {
     list-style: none;
     padding: 0;
     margin: 0;
-
   }
 #navigation ul li {
     float: left;
@@ -51,25 +50,25 @@ h1 {
     text-align: center;
 }
 #navigation ul li:hover {
-    background-color:rgb(255, 255, 255);
+    background-color:white;
     cursor: pointer;
 }
 main {
     width: 100%;
-    min-height: 450px;
+    min-height: 350px;
 }
 main {
     background-color: white;
 }
 main > section {
-    background-color:  rgb(182, 182, 182);
+    background-color:  rgb(139, 139, 139);
     float: left; 
     width: 100%;
     padding: 20px;
-    color: rgb(0, 0, 0);
+    color: rgb(206, 206, 206);
 }
 footer {
-    background-color: white;
+    background-color:rgb(153, 243, 250, 0.671);
     text-align: center;
 }
 footer p {

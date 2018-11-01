@@ -40,7 +40,7 @@ h1 {
     float: left;
     padding-left: .7em;
     padding-top: .4em;
-    font-family: 'Monoton', cursive;
+    font-family: 'Bungee Shade', cursive;
 }
 .clearfix::after {
     content: "";
@@ -98,5 +98,4 @@ footer p {
 }
 .hidden {
     display: none;
-    
 }

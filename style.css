@@ -23,8 +23,18 @@ body {
 }
 .circle {
     background-color: white;
-    border: solid black 1em;
-    border-radius: 4px;
+    border: solid rgb(255, 255, 255) 1px;
+    border-radius: 50%;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+.circle:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 h1 {
     float: left;
@@ -79,4 +89,14 @@ footer {
 footer p {
    padding: 10px;
    margin: 0;
+}
+#easter-egg {
+    position: absolute;
+    top: 0px;
+    left:0px;
+    z-index: 1;
+}
+.hidden {
+    display: none;
+    
 }

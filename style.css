@@ -63,6 +63,18 @@ h2,h3, h4, h5, h6 {
     float: left;
     padding: 10px 20px;
 }
+#yr2016 {
+    border-left: solid black 1px;
+}
+#yr2017 {
+    border-left: solid black 1px;
+}
+#yr2018 {
+    border-left: solid black 1px;
+}
+#categories {
+    border-right: solid black 1px;
+}
 .text-align {
     text-align: center;
 }

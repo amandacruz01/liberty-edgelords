@@ -3,7 +3,6 @@
 }
 body {
     background-color: rgba(188, 247, 252, 0.671);
-
 }
 #container {
     width: 90%;
@@ -41,6 +40,10 @@ h1 {
     padding-left: .7em;
     padding-top: .4em;
     font-family: 'Bungee Shade', cursive;
+}
+h2,h3, h4, h5, h6 {
+    font-family: 'Homenaje', sans-serif;
+    margin: 0;
 }
 .clearfix::after {
     content: "";
@@ -81,7 +84,7 @@ main > section {
     width: 100%;
     padding: 20px;
     color: rgb(75, 75, 75);
-    font-family: 'Homenaje', sans-serif;
+    font-size: 20px;
 }
 footer {
     background-color:rgb(153, 243, 250, 0.671);

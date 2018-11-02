@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgba(188, 247, 252, 0.671);
+    background-color: rgba(216, 249, 252, 0.671);
 }
 #container {
     width: 90%;
@@ -62,7 +62,6 @@ h2,h3, h4, h5, h6 {
 #navigation ul li {
     float: left;
     padding: 10px 20px;
-    border-right: 1px solid black;
 }
 .text-align {
     text-align: center;
@@ -83,7 +82,7 @@ main > section {
     float: left; 
     width: 100%;
     padding: 20px;
-    color: rgb(75, 75, 75);
+    color: rgb(63, 63, 63);
     font-size: 20px;
 }
 footer {
@@ -102,4 +101,10 @@ footer p {
 }
 .hidden {
     display: none;
+}
+.button {
+    background-color: rgb(255, 255, 255);
+    border: solid rgb(0, 0, 0) 1px;
+    text-align: center;
+    padding: 10px 20px;
 }

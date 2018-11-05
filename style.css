@@ -63,13 +63,7 @@ h2,h3, h4, h5, h6 {
     float: left;
     padding: 10px 20px;
 }
-#yr2016 {
-    border-left: solid black 1px;
-}
-#yr2017 {
-    border-left: solid black 1px;
-}
-#yr2018 {
+.year {
     border-left: solid black 1px;
 }
 #categories {
@@ -77,6 +71,9 @@ h2,h3, h4, h5, h6 {
 }
 .text-align {
     text-align: center;
+}
+.lib-edge {
+    
 }
 #navigation ul li:hover {
     background-color:white;

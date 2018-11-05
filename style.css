@@ -15,7 +15,7 @@ body {
 }
 #search {
     float: right;
-    padding: .5em;
+    padding: 9px 5px 9px 5px;
 }
 #search input {
     padding: 0.4em;
@@ -34,12 +34,6 @@ body {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-h1 {
-    float: left;
-    padding-left: .7em;
-    padding-top: .4em;
-    font-family: 'Bungee Shade', cursive;
 }
 h2,h3, h4, h5, h6 {
     font-family: 'Homenaje', sans-serif;
@@ -61,14 +55,15 @@ h2,h3, h4, h5, h6 {
   }
 #navigation ul li {
     float: left;
-    padding: 20px 20px;
+    padding: 15px 20px;
     border-right: solid black 2px;
 }
 .text-align {
     text-align: center;
 }
 .lib-edge {
-
+    font-family: 'Bungee Shade', cursive;
+    padding-top: 25px;
 }
 #navigation ul li:hover {
     background-color:white;

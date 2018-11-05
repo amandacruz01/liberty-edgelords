@@ -2,11 +2,14 @@
     box-sizing: border-box;
 }
 body {
-    background-color: linear-gradient(rgba(216, 249, 252, 0.671),red);
+    
 }
 #container {
     width: 90%;
     margin: 0 auto;
+} 
+#grad1 {
+    background-color: linear-gradient(rgba(216, 249, 252, 0.671),red);
 }
 #logo {
     width: 100%;

@@ -8,14 +8,14 @@ body {
     width: 90%;
     margin: 0 auto;
 }
-#logo-search {
+#logo {
     width: 100%;
     background-color: rgb(32, 107, 206);
     color: rgb(0, 0, 0);
 }
 #search {
     float: right;
-    padding: 1.2em;
+    padding: .5em;
 }
 #search input {
     padding: 0.4em;
@@ -52,6 +52,7 @@ h2,h3, h4, h5, h6 {
 }
 #navigation {
     background-color: rgb(226, 233, 255);
+    border: solid black 2px;
 }
 #navigation ul {
     list-style: none;
@@ -60,7 +61,8 @@ h2,h3, h4, h5, h6 {
   }
 #navigation ul li {
     float: left;
-    padding: 25px 20px;
+    padding: 20px 20px;
+    border-right: solid black 2px;
 }
 .text-align {
     text-align: center;

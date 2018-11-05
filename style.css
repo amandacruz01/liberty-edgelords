@@ -14,8 +14,8 @@ body {
     color: rgb(0, 0, 0);
 }
 #search {
-    float: left;
-    padding: 2.2em;
+    float: right;
+    padding: 1.2em;
 }
 #search input {
     padding: 0.4em;
@@ -52,7 +52,6 @@ h2,h3, h4, h5, h6 {
 }
 #navigation {
     background-color: rgb(226, 233, 255);
-    border: solid black 3px;
 }
 #navigation ul {
     list-style: none;
@@ -61,19 +60,13 @@ h2,h3, h4, h5, h6 {
   }
 #navigation ul li {
     float: left;
-    padding: 10px 20px;
-}
-.year {
-    border-left: solid black 1px;
-}
-#categories {
-    border-right: solid black 1px;
+    padding: 25px 20px;
 }
 .text-align {
     text-align: center;
 }
 .lib-edge {
-    
+
 }
 #navigation ul li:hover {
     background-color:white;

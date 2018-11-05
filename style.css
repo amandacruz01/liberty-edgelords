@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgba(216, 249, 252, 0.671);
+    background-color: linear-gradient(rgba(216, 249, 252, 0.671),red);
 }
 #container {
     width: 90%;
@@ -52,7 +52,7 @@ h2,h3, h4, h5, h6 {
 }
 #navigation {
     background-color: rgb(226, 233, 255);
-    border: solid black;
+    border: solid black 3px;
 }
 #navigation ul {
     list-style: none;

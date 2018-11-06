@@ -13,15 +13,15 @@
     <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
 
     <script id="meme-template" type="text/handlebars-v4">
-        <li class="product" data-brand="{{brand}}" data-categories="{{categories}}" data-id="{{product_id}}">
+        <li class="meme" data-categories="{{categories}}" data-id="{{meme_id}}">
             <img src="images/{{image}}" alt="{{title}}">
             <h4>{{title}}</h4>
-            <p>{{price}}</p>
+            <p>{{Rating &copyright}}</p>
             <a href="#" class="button">Learn more</a>
         </li>
     </script>
 </head>
-<body>
+<body id="grad1">
     <div id ="container">
         <video class="hidden"></video>
         <header>

@@ -9,7 +9,7 @@ body {
     margin: 0 auto;
 } 
 #grad1 {
-    background-color: linear-gradient(rgba(216, 249, 252, 0.671),red);
+    background-image: linear-gradient(rgb(233, 231, 231),rgb(49, 49, 49));
 }
 #logo {
     width: 100%;
@@ -48,7 +48,7 @@ h2,h3, h4, h5, h6 {
     display: table;
 }
 #navigation {
-    background-color: rgb(226, 233, 255);
+    background-color: rgba(255, 249, 196, 0.911);
     border: solid black 2px;
 }
 #navigation ul {
@@ -69,8 +69,9 @@ h2,h3, h4, h5, h6 {
     padding-top: 25px;
 }
 #navigation ul li:hover {
-    background-color:white;
+    background-color:rgb(255, 252, 224);
     cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.24);
 }
 main {
     width: 100%;
@@ -80,7 +81,7 @@ main {
     background-color: white;
 }
 main > section {
-    background-color:  rgb(172, 171, 171);
+    background-color:  rgb(169, 190, 197);
     float: left; 
     width: 100%;
     padding: 20px;

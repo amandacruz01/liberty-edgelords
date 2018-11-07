@@ -4,8 +4,7 @@ var memes = [
         title: "Julius Caesar",
         month:"January",
         year:"2016",
-        description:"",
-        categories: ["Rome","Halo"],
+        categories: ["Rome","Halo","History"],
         meme_id: "1"
     },
     {
@@ -13,8 +12,7 @@ var memes = [
         title: "Austria",
         month:"Febuary",
         year:"2016",
-        description:"",
-        categories: ["ww1"],
+        categories: ["ww1","History"],
         meme_id: "2"
     },
     {
@@ -22,206 +20,183 @@ var memes = [
         title: "Renault",
         month:"March",
         year:"2016",
-        description:"",
-        categories: [""],
+        categories: ["ww2","History"],
         meme_id: "3"
     },
     {
-        image:"",
-        title:"",
+        image:"history-genocide.jpg",
+        title:"Genocide",
         month:"April",
         year:"2016",
-        description:"",
-        categories:"",
-        meme_id:""
+        categories:["ww2","History"],
+        meme_id:"4"
     },
     {
-        image:"",
-        title:"",
+        image:"history-japaneese.jpg",
+        title:"Japaneese",
         month:"May",
         year:"2016",
-        description:"",
-        categories:"",
-        meme_id:""
+        categories:["ww2","History"],
+        meme_id:"5"
     },
     {
-        image:"",
-        title:"",
+        image:"history-jeruselum.jpeg",
+        title:"Dues Vult",
         month:"June",
         year:"2016",
-        description:"",
-        categories:"",
-        meme_id:""
+        categories:["Classic","History"],
+        meme_id:"5"
     },
     {
-        image:"",
-        title:"",
+        image:"kennedy.jpg",
+        title:"Kennedy",
         month:"July",
         year:"2016",
-        description:"",
-        categories:"",
-        meme_id:""
+        categories:["Cold War","History"],
+        meme_id:"6"
     },
     {
-        image:"",
-        title:"",
+        image:"maginotline.jpg",
+        title:"Maginotline",
         month:"August",
         year:"2016",
-        description:"",
-        categories:"",
-        meme_id:""
+        categories:["ww2","History"],
+        meme_id:"7"
     },
     {
-        image:"",
-        title:"",
+        image:"maginotline2.jpg",
+        title:"Retreat",
         month:"September",
         year:"2016",
-        description:"",
-        categories:"",
-        meme_id:""
+        categories:["ww2","History"],
+        meme_id:"8"
     },
     {
-        image:"",
-        title:"",
+        image:"serbs.jpg",
+        title:"Serbs",
         month:"October",
         year:"2016",
-        description:"",
-        categories:"",
-        meme_id:""
+        categories:["Cold War","History"],
+        meme_id:"9"
     },
     {
-        image:"",
-        title:"",
+        image:"africa.jpg",
+        title:"Democrocy",
         month:"November",
         year:"2016",
-        description:"",
-        categories:"",
-        meme_id:""
+        categories:["History"],
+        meme_id:"10"
     },
     {
-        image:"",
-        title:"",
+        image:"austria2.jpg",
+        title:"Austria",
         month:"December",
         year:"2016",
-        description:"",
-        categories:"",
-        meme_id:""
+        categories:["ww1","History"],
+        meme_id:"11"
     },
     {
-        image:"",
-        title:"",
+        image:"france.jpg",
+        title:"France",
         month:"January",
         year:"2017",
-        description:"",
-        categories:"",
-        meme_id:""
+        categories:["ww2","ww1","History"],
+        meme_id:"12"
     },
     {
-        image:"",
-        title:"",
+        image:"stalin1.jpg",
+        title:"Stalin",
         month:"Febuary",
         year:"2017",
-        description:"",
-        categories:"",
-        meme_id:""
+        categories:["Cold War","History"],
+        meme_id:"13"
     },
     {
-        image:"",
-        title:"",
+        image:"sweden.jpg",
+        title:"Nuetrality",
         month:"March",
         year:"2017",
-        description:"",
-        categories:"",
-        meme_id:""
+        categories:["ww1","ww2","History"],
+        meme_id:"14"
     },
     {
-        image:"",
-        title:"",
+        image:"titanic.jpg",
+        title:"Titanic",
         month:"April",
         year:"2017",
-        description:"",
-        categories:"",
-        meme_id:""
+        categories:["History"],
+        meme_id:"15"
     },
     {
-        image:"",
-        title:"",
+        image:"trostky.jpg",
+        title:"Trotsky",
         month:"May",
         year:"2017",
-        description:"",
-        categories:"",
-        meme_id:""
+        categories:["History"],
+        meme_id:"16"
     },
     {
-        image:"",
-        title:"",
+        image:"worldwars.jpg",
+        title:"WW",
         month:"June",
         year:"2017",
-        description:"",
-        categories:"",
-        meme_id:""
+        categories:["History"],
+        meme_id:"17"
     },
     {
-        image:"",
-        title:"",
+        image:"youtube.jpg",
+        title:"Youtube",
         month:"July",
         year:"2017",
-        description:"",
-        categories:"",
-        meme_id:""
+        categories:["ww2","History"],
+        meme_id:"18"
     },
     {
-        image:"",
-        title:"",
+        image:"yuri.jpg",
+        title:"Yuri",
         month:"August",
         year:"2017",
-        description:"",
-        categories:"",
-        meme_id:""
+        categories:["Cold War","History"],
+        meme_id:"19"
     },
     {
-        image:"",
-        title:"",
+        image:"purchase.jpg",
+        title:"America",
         month:"September",
         year:"2017",
-        description:"",
-        categories:"",
-        meme_id:""
+        categories:["History"],
+        meme_id:"20"
     },
     {
-        image:"",
-        title:"",
+        image:"middle-east.jpg",
+        title:"Sykes Picot",
         month:"October",
         year:"2017",
-        description:"",
-        categories:"",
-        meme_id:""
+        categories:["History"],
+        meme_id:"21"
     },
     {
-        image:"",
-        title:"",
+        image:"moonrace.jpg",
+        title:"Race",
         month:"November",
         year:"2017",
-        description:"",
-        categories:"",
-        meme_id:""
+        categories:["","History"],
+        meme_id:"22"
     },
     {
         image:"",
         title:"",
         month:"December",
         year:"2017",
-        description:"",
-        categories:"",
-        meme_id:""
+        categories:["","History"],
+        meme_id:"23"
     },
     {
         image:"",
         title:"",
         month:"",
         year:"2018",
-        description:"",
-        categories:"",
-        meme_id:""
+        categories:["","History"],
+        meme_id:"24"
     },
 ];

@@ -13,7 +13,7 @@ body {
 }
 #logo {
     width: 100%;
-    background-color: rgb(32, 107, 206);
+    background-color: rgb(34, 103, 194);
     color: rgb(0, 0, 0);
 }
 #search {
@@ -110,4 +110,21 @@ footer p {
     border: solid rgb(0, 0, 0) 1px;
     text-align: center;
     padding: 10px 20px;
+}
+#meme-listings {
+    list-style: none;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+.meme {
+    width: 30%;
+    background-color:rgba(218, 139, 49, 0.87); 
+    color: rgb(0, 0, 0);
+    float: left;
+    margin: 0 20px 20px 0;
+}
+.meme img {
+    width: 90%;
+    margin: 10px auto;
+    display: block;
 }

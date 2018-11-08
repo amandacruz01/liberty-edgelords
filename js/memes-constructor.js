@@ -16,6 +16,7 @@ Meme.prototype.toHtml = function(){
     var template = Handlebars.compile(source);
     return template(this);
 };
+
 memes.forEach(function(meme){
     meme_list.push(new Meme(meme));
 });

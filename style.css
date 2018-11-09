@@ -11,7 +11,7 @@
 #logo {
     width: 100%;
     background-color: #043565;
-    color: rgb(199, 199, 199);
+    color: rgba(255, 255, 255, 0.795);
 }
 #search {
     float: right;
@@ -75,10 +75,10 @@ main {
     min-height: 350px;
 }
 main {
-    background-color: rgb(230, 228, 214);
+    background-color: rgb(245, 244, 236);
 }
 main > section {
-    background-color: rgb(230, 228, 214);
+    background-color: rgb(245, 244, 236);
     float: left; 
     width: 100%;
     padding: 20px;
@@ -138,5 +138,5 @@ footer p {
     float: center;
     padding: 8px 16px;
     text-decoration: none;
-    transition: rgb(230, 228, 214) .3s;
+    transition: rgb(245, 244, 236) .3s;
 }

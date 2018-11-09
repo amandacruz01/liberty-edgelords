@@ -16,7 +16,33 @@ Meme.prototype.toHtml = function(){
     var template = Handlebars.compile(source);
     return template(this);
 };
-
+Handlebars.registerHelper('star-icons',function(stars) {
+    stars = parseInt(stars);
+    var result = '';
+    switch(stars) {
+        case 5:
+            result += '&#9733;';
+        case 4:
+            result += '&#9733;';
+        case 3:
+            result += '&#9733;';
+        case 2:
+            result += '&#9733;';
+        case 1:
+            result += '&#9733;';
+    }
+    switch(stars) {
+        case 1:
+            result += '&#9734;';
+        case 2:
+            result += '&#9734;';
+        case 3:
+            result += '&#9734;';
+        case 4:
+            result += '&#9734;';
+    }
+    return result;
+});
 memes.forEach(function(meme){
     meme_list.push(new Meme(meme));
 });

@@ -129,3 +129,14 @@ footer p {
     height: 200px;
     object-fit: center;
 }
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: rgb(230, 228, 214) .3s;
+}

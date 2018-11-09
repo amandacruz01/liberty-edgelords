@@ -6,12 +6,12 @@
     margin: 0 auto;
 } 
 #grad1 {
-    background-image: linear-gradient(#E0E1DD,#0D1B2A);
+    background-image: linear-gradient( #C9C5BA,#0D1B2A);
 }
 #logo {
     width: 100%;
     background-color: #043565;
-    color: #E0E1DD;
+    color: rgb(199, 199, 199);
 }
 #search {
     float: right;
@@ -75,10 +75,10 @@ main {
     min-height: 350px;
 }
 main {
-    background-color: white;
+    background-color: rgb(230, 228, 214);
 }
 main > section {
-    background-color:  #C9C5BA;
+    background-color: rgb(230, 228, 214);
     float: left; 
     width: 100%;
     padding: 20px;
@@ -125,4 +125,7 @@ footer p {
     width: 90%;
     margin: 10px auto;
     display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: center;
 }

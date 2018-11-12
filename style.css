@@ -87,7 +87,7 @@ main > aside {
 main > section {
     background-color: rgb(245, 244, 236);
     float: left; 
-    width: 100%;
+    width: 80%;
     padding: 20px;
     color: rgb(63, 63, 63);
     font-size: 20px;
@@ -153,4 +153,6 @@ footer p {
     padding: 8px 16px;
     text-decoration: none;
     transition: rgb(245, 244, 236) .3s;
+    margin-left: 50px;
 }
+.pagination a:hover:not(.active) {background-color: rgba(151, 151, 151, 0.315);}

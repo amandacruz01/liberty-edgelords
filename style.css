@@ -109,14 +109,20 @@ footer p {
    padding: 10px;
    margin: 0;
 }
-#easter-egg {
+.easter-egg {
     position: absolute;
-    top: 0px;
+    top:0px;
     left:0px;
-    z-index: 1;
+    z-index:1;
+}
+button.easter-egg{
+    background-color:red;
+}
+video.easter-egg{
+    top:40px;
 }
 .hidden {
-    display: none;
+    left: -9999px;
 }
 .button {
     background-color: rgb(255, 255, 255);

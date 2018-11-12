@@ -15,14 +15,17 @@
         <li class="meme" data-categories="{{categories}}" data-id="{{meme_id}}">
             <img src="images/{{image}}" alt="{{title}}">
             <h4>{{title}}</h4>
-            <p>{{Rating &copyright}}</p>
-            <a href="#" class="button">Learn more</a>
+            <h5>{{{stars}}}</h5>
         </li>
+            <!–– download lightbox js -->
     </script>
 </head>
 <body id="grad1">
     <div id ="container">
-        <video class="hidden"></video>
+        <video class="hidden">
+            <source src="#.mp4" type="video/mp4">
+            <source src="#.ogg" type="video/ogg">
+        </video>
         <header>
             <div id="logo" class="clearfix">
                 <h1 class="text-align lib-edge">Liberty Edgelords</h1>
@@ -46,8 +49,7 @@
             
             <section>
                 <h2>Premium Memes</h2>
-                <br>
-                <ul id="meme-listing">
+                <ul id="meme-listings">
                     
                 </ul>
             </section>
@@ -62,9 +64,8 @@
     <script src="js/handlebars-v4.0.12.js"></script>
     <script src="js/easter-egg.js"></script> 
     <script src="js/memes.js"></script>
-    <script src="js/meme-constructor.js"></script>
+    <script src="js/memes-constructor.js"></script>
     <script src="js/category-filter.js"></script>
-    <script src="js/dropdown.js"></script>
     <script src="js/search.js"></script>
 </body>
 </html>

@@ -10,6 +10,7 @@ var Meme = function(meme) {
     this.description = meme.description;
     this.categories = meme.categories;
     this.meme_id = meme.meme_id;
+    this.stars = meme.stars;
 };
 Meme.prototype.toHtml = function(){
     var source = $('#meme-template').text();
@@ -17,6 +18,7 @@ Meme.prototype.toHtml = function(){
     return template(this);
 };
 Handlebars.registerHelper('star-icons',function(stars) {
+
     stars = parseInt(stars);
     var result = '';
     switch(stars) {

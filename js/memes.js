@@ -126,15 +126,6 @@ var memes = [
         stars: 4
     },
     {
-        image:"sweden.jpg",
-        title:"Nuetrality",
-        month:"March",
-        year:"2017",
-        categories:["ww1","ww2","History"],
-        meme_id:"14",
-        stars:3 
-    },
-    {
         image:"titanic.jpg",
         title:"Titanic",
         month:"April",
@@ -208,7 +199,7 @@ var memes = [
     },
     {
         image:"sweden.jpg",
-        title:"Nuetral",
+        title:"Neutral",
         month:"January",
         year:"2016",
         categories:["History"],

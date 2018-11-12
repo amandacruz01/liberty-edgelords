@@ -1,6 +1,6 @@
 var button = document.getElementById("easter-egg");
 var keys = [];
-console.log($(".easter-egg"));
+
 
 function handleInput(input) {
     // console.log(input);
@@ -20,10 +20,6 @@ function handleInput(input) {
 
 $(".easter-egg")[0].addEventListener("click", function(){
     $(".easter-egg")[1].classList.remove("hidden");
-});
-
-$("body").addEventListener("click",function(){
-    $(".easter-egg")[1].classList.add("hidden");
 });
 
 

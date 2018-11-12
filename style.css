@@ -140,19 +140,7 @@ footer p {
     width: 90%;
     margin: 10px auto;
     display: block;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     object-fit: center;
 }
-.pagination {
-    display: inline-block;
-}
-.pagination a {
-    color: black;
-    float: center;
-    padding: 8px 16px;
-    text-decoration: none;
-    transition: rgb(245, 244, 236) .3s;
-    margin-left: 50px ;
-}
-.pagination a:hover:not(.active) {background-color: rgba(151, 151, 151, 0.315);}

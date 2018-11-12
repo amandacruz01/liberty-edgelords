@@ -153,6 +153,6 @@ footer p {
     padding: 8px 16px;
     text-decoration: none;
     transition: rgb(245, 244, 236) .3s;
-    margin-left: 50px;
+    margin-left: 50px ;
 }
 .pagination a:hover:not(.active) {background-color: rgba(151, 151, 151, 0.315);}

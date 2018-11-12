@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Liberty Edgelords</title>
-    <link href="style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/lightbox.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Homenaje" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
@@ -13,9 +14,11 @@
 
     <script id="meme-template" type="text/handlebars-v4">
         <li class="meme" data-categories="{{categories}}" data-year="{{year}}" data-id="{{meme_id}}">
+            <a href="images/{{image}}" data-lightbox="meme-image" data-title="{{title}}">
             <img src="images/{{image}}" alt="{{title}}">
+            </a>
             <h4>{{title}}</h4>
-            <h5>{{{stars}}}</h5>
+            <h5>{{{star}}}</h5>
         </li>
     </script>
 </head>
@@ -38,11 +41,11 @@
         <main class="clearfix">
             <aside>
                 <h3>Category</h3>
-                <select id="category-filter dropdown">
+                <select id="category-filter">
                     <option value="">Select a Category</option>
                 </select>
                 <h3>Date</h3>
-                <select id="date-filter dropdown">
+                <select id="date-filter">
                     <option value="">Select a Date</option>
                 </select>
             </aside>
@@ -65,6 +68,7 @@
     </video>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/handlebars-v4.0.12.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
     <script src="js/easter-egg.js"></script> 
     <script src="js/memes.js"></script>
     <script src="js/memes-constructor.js"></script>

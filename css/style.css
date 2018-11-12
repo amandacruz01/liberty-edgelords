@@ -116,19 +116,18 @@ footer p {
     z-index:1;
 }
 button.easter-egg{
-    background-color:red;
-}
-video.easter-egg{
-    top:40px;
-}
-.hidden {
-    left: -9999px;
-}
-.button {
     background-color: rgb(255, 255, 255);
     border: solid rgb(0, 0, 0) 1px;
     text-align: center;
-    padding: 5px 10px;
+    padding: 0px 10px;
+}
+video.easter-egg{
+    top:40px;
+    width: 400px;
+    height: 400px;
+}
+.hidden {
+    left: -9999px;
 }
 #meme-listings {
     list-style: none;

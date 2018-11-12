@@ -202,7 +202,7 @@ var memes = [
         title:"Race",
         month:"November",
         year:"2017",
-        categories:["","History"],
+        categories:["History"],
         meme_id:"22",
         stars: 4
     },

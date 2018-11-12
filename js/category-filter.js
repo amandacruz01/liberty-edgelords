@@ -14,7 +14,6 @@ function setUpCategoryFilter() {
     categoryList.sort();
     categoryList.forEach(function(category) {
         var optionTag = `<option value="${category}">${category}</option>`;
-        console.log(optionTag);
         $('#category-filter').append(optionTag);
     });
 };
@@ -22,7 +21,7 @@ function setUpCategoryFilter() {
 setUpCategoryFilter();
 
 function handleCategoryFilter() {
-    $('#categories').on('change', function() {
+    $('#category-filter').on('change', function() {
         if($(this).val()) {
             $('.meme').hide();
             $(`.meme[data-categories*="${$(this).val()}"]`).fadeIn();

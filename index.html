@@ -12,12 +12,11 @@
     <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
 
     <script id="meme-template" type="text/handlebars-v4">
-        <li class="meme" data-categories="{{categories}}" data-id="{{meme_id}}">
+        <li class="meme" data-categories="{{categories}}" data-year="{{year}}" data-id="{{meme_id}}">
             <img src="images/{{image}}" alt="{{title}}">
             <h4>{{title}}</h4>
             <h5>{{{stars}}}</h5>
         </li>
-            <!–– download lightbox js -->
     </script>
 </head>
 <body id="grad1">
@@ -43,19 +42,11 @@
             <aside>
                 <h3>Category</h3>
                 <select id="category-filter dropdown">
-                    <option value="">Category</option>
+                    <option value="">select a category</option>
                 </select>
-                <h3>2016</h3>
-                <select id="2016-filter dropdown">
-                    <option value="">2016</option>
-                </select>
-                <h3>2017</h3>
-                <select id="2017-filter dropdown">
-                    <option value="">2017</option>
-                </select>
-                <h3>2018</h3>
-                <select id="2018-filter dropdown">
-                    <option value="">2018</option>
+                <h3>Date</h3>
+                <select id="date-filter dropdown">
+                    <option value="">select a date</option>
                 </select>
             </aside>
             <section>

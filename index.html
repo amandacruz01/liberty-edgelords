@@ -12,12 +12,11 @@
     <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
 
     <script id="meme-template" type="text/handlebars-v4">
-        <li class="meme" data-categories="{{categories}}" data-id="{{meme_id}}">
+        <li class="meme" data-categories="{{categories}}" data-year="{{year}}" data-id="{{meme_id}}">
             <img src="images/{{image}}" alt="{{title}}">
             <h4>{{title}}</h4>
             <h5>{{{stars}}}</h5>
         </li>
-            <!–– download lightbox js -->
     </script>
 </head>
 <body id="grad1">
@@ -29,36 +28,54 @@
                 
             </div>
             <div id="navigation" class="clearfix">
-                <ul>
-                    <li id="categories" style="float:left">Categories</li>
-                    <li style="float:left" class="year">2016</li>
-                    <li style="float:left" class="year">2017</li>
-                    <li style="float:left" class="year">2018</li>
+                
                     <form id="search">
                         <input type="search" id="lookup" placeholder="Search">
                         <button type="submit" class="fas fa-search circle"></button>
-                    </form>
-                </ul>
-                 
+                    </form> 
             </div>
         </header>
         <main class="clearfix">
-            
+            <aside>
+                <h3>Category</h3>
+                <select id="category-filter dropdown">
+                    <option value="">select a category</option>
+                </select>
+                <h3>Date</h3>
+                <select id="date-filter dropdown">
+                    <option value="">select a date</option>
+                </select>
+            </aside>
             <section>
                 <h2>Premium Memes</h2>
                 <ul id="meme-listings">
                     
                 </ul>
+                <div class="pagination">
+                        <a href="#">&laquo;</a>
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">&raquo;</a>
+                </div>
             </section>
+            
         </main>
+        
         <footer>
             <p>Copyright &copy;2018</p>
         </footer>
     </div>
+<<<<<<< HEAD
     <button class="easter-egg hidden">You Better Stop!</button>
     <video class="easter-egg hidden" controls>
         <source src="AHHH-YOU-BETTER-STOP-Vine-Girl-Screaming.mp4" type="video/mp4">
     </video>
+=======
+    
+    <button id="easter-egg" class="button hidden">You Better Stop!</button>
+    
+>>>>>>> 791cd67ae1e2bf1397e4ee14ab83f340d8db7293
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/handlebars-v4.0.12.js"></script>
     <script src="js/easter-egg.js"></script> 

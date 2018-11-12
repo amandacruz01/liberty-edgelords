@@ -77,6 +77,13 @@ main {
 main {
     background-color: rgb(245, 244, 236);
 }
+main > aside {
+    float: left;
+    width: 20%;
+    background-color: rgb(235, 227, 215);
+    padding: 20px;
+    height: 100px;
+}
 main > section {
     background-color: rgb(245, 244, 236);
     float: left; 
@@ -84,6 +91,14 @@ main > section {
     padding: 20px;
     color: rgb(63, 63, 63);
     font-size: 20px;
+}
+aside select {
+    width: 100%;
+}
+aside hr {
+    border: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
 }
 footer {
     background-color:#0D1B2A;

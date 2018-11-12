@@ -5,7 +5,8 @@ var memes = [
         month:"January",
         year:"2016",
         categories: ["Rome","Halo","History"],
-        meme_id: "1"
+        meme_id: "1",
+        stars: 2
     },
     {
         image: "austria.jpg", 
@@ -13,7 +14,8 @@ var memes = [
         month:"Febuary",
         year:"2016",
         categories: ["ww1","History"],
-        meme_id: "2"
+        meme_id: "2",
+        stars: 3
     },
     {
         image: "french.jpg", 
@@ -21,31 +23,35 @@ var memes = [
         month:"March",
         year:"2016",
         categories: ["ww2","History"],
-        meme_id: "3"
+        meme_id: "3",
+        stars: 2
     },
     {
-        image:"history-genocide.jpg",
+        image:"history-genocide1.jpg",
         title:"Genocide",
         month:"April",
         year:"2016",
         categories:["ww2","History"],
-        meme_id:"4"
+        meme_id:"4",
+        stars: 3
     },
     {
-        image:"history-japaneese.jpg",
+        image:"history-japaneese1.jpg",
         title:"Japaneese",
         month:"May",
         year:"2016",
         categories:["ww2","History"],
-        meme_id:"5"
+        meme_id:"5",
+        stars: 5
     },
     {
-        image:"history-jeruselum.jpeg",
+        image:"history-jeruselum.jpg",
         title:"Dues Vult",
         month:"June",
         year:"2016",
         categories:["Classic","History"],
-        meme_id:"5"
+        meme_id:"5",
+        stars: 5
     },
     {
         image:"kennedy.jpg",
@@ -53,7 +59,8 @@ var memes = [
         month:"July",
         year:"2016",
         categories:["Cold War","History"],
-        meme_id:"6"
+        meme_id:"6",
+        stars: 2
     },
     {
         image:"maginotline.jpg",
@@ -61,7 +68,8 @@ var memes = [
         month:"August",
         year:"2016",
         categories:["ww2","History"],
-        meme_id:"7"
+        meme_id:"7",
+        stars: 1
     },
     {
         image:"maginotline2.jpg",
@@ -69,7 +77,8 @@ var memes = [
         month:"September",
         year:"2016",
         categories:["ww2","History"],
-        meme_id:"8"
+        meme_id:"8",
+        stars: 2
     },
     {
         image:"serbs.jpg",
@@ -77,7 +86,8 @@ var memes = [
         month:"October",
         year:"2016",
         categories:["Cold War","History"],
-        meme_id:"9"
+        meme_id:"9",
+        stars: 3
     },
     {
         image:"africa.jpg",
@@ -85,7 +95,8 @@ var memes = [
         month:"November",
         year:"2016",
         categories:["History"],
-        meme_id:"10"
+        meme_id:"10",
+        stars: 4
     },
     {
         image:"austria2.jpg",
@@ -93,7 +104,8 @@ var memes = [
         month:"December",
         year:"2016",
         categories:["ww1","History"],
-        meme_id:"11"
+        meme_id:"11",
+        stars: 3
     },
     {
         image:"france.jpg",
@@ -101,7 +113,8 @@ var memes = [
         month:"January",
         year:"2017",
         categories:["ww2","ww1","History"],
-        meme_id:"12"
+        meme_id:"12",
+        stars: 4
     },
     {
         image:"stalin1.jpg",
@@ -109,7 +122,8 @@ var memes = [
         month:"Febuary",
         year:"2017",
         categories:["Cold War","History"],
-        meme_id:"13"
+        meme_id:"13",
+        stars: 4
     },
     {
         image:"sweden.jpg",
@@ -117,7 +131,8 @@ var memes = [
         month:"March",
         year:"2017",
         categories:["ww1","ww2","History"],
-        meme_id:"14"
+        meme_id:"14",
+        stars:3 
     },
     {
         image:"titanic.jpg",
@@ -125,7 +140,8 @@ var memes = [
         month:"April",
         year:"2017",
         categories:["History"],
-        meme_id:"15"
+        meme_id:"15",
+        stars: 5
     },
     {
         image:"trostky.jpg",
@@ -133,7 +149,8 @@ var memes = [
         month:"May",
         year:"2017",
         categories:["History"],
-        meme_id:"16"
+        meme_id:"16",
+        stars: 5
     },
     {
         image:"worldwars.jpg",
@@ -141,7 +158,8 @@ var memes = [
         month:"June",
         year:"2017",
         categories:["History"],
-        meme_id:"17"
+        meme_id:"17",
+        stars: 4
     },
     {
         image:"youtube.jpg",
@@ -149,7 +167,8 @@ var memes = [
         month:"July",
         year:"2017",
         categories:["ww2","History"],
-        meme_id:"18"
+        meme_id:"18",
+        stars: 3
     },
     {
         image:"yuri.jpg",
@@ -157,15 +176,17 @@ var memes = [
         month:"August",
         year:"2017",
         categories:["Cold War","History"],
-        meme_id:"19"
-    },
+        meme_id:"19",
+        stars:3
+    }, 
     {
         image:"purchase.jpg",
         title:"America",
         month:"September",
         year:"2017",
         categories:["History"],
-        meme_id:"20"
+        meme_id:"20",
+        stars: 3
     },
     {
         image:"middle-east.jpg",
@@ -173,7 +194,8 @@ var memes = [
         month:"October",
         year:"2017",
         categories:["History"],
-        meme_id:"21"
+        meme_id:"21",
+        stars: 3
     },
     {
         image:"moonrace.jpg",
@@ -181,22 +203,16 @@ var memes = [
         month:"November",
         year:"2017",
         categories:["","History"],
-        meme_id:"22"
+        meme_id:"22",
+        stars: 4
     },
     {
-        image:"",
-        title:"",
-        month:"December",
-        year:"2017",
-        categories:["","History"],
-        meme_id:"23"
-    },
-    {
-        image:"",
-        title:"",
-        month:"",
-        year:"2018",
-        categories:["","History"],
-        meme_id:"24"
+        image:"sweden.jpg",
+        title:"Nuetral",
+        month:"January",
+        year:"2016",
+        categories:["History"],
+        meme_id:"23",
+        stars: 3
     },
 ];

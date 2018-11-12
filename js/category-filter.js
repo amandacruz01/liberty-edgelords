@@ -13,8 +13,9 @@ function setUpCategoryFilter() {
     });
     categoryList.sort();
     categoryList.forEach(function(category) {
-        var liTag = `<li>${category}</li>`;
-        $('#categories').append(liTag);
+        var optionTag = `<option value="${category}">${category}</option>`;
+        console.log(optionTag);
+        $('#category-filter').append(optionTag);
     });
 };
 

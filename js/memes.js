@@ -212,7 +212,7 @@ var memes = [
         month:"January",
         year:"2016",
         categories:["Pepe", "Edgy"],
-        meme_id:"23",
+        meme_id:"24",
         stars: 2
     },
     {
@@ -221,7 +221,7 @@ var memes = [
         month:"January",
         year:"2017",
         categories:["Edgy"],
-        meme_id:"23",
+        meme_id:"255",
         stars: 3
     },
 ];

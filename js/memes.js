@@ -206,4 +206,13 @@ var memes = [
         meme_id:"23",
         stars: 3
     },
+    {
+        image:"0c8.jpg",
+        title:"Satanic Pepe",
+        month:"January",
+        year:"2016",
+        categories:["Pepe", "Edgy"],
+        meme_id:"23",
+        stars: 3
+    },
 ];

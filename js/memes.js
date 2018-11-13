@@ -10,7 +10,7 @@ var memes = [
     },
     {
         image: "austria.jpg", 
-        title: "Austria",
+        title: "Austria-Hungary",
         month:"Febuary",
         year:"2016",
         categories: ["ww1","History"],
@@ -212,6 +212,15 @@ var memes = [
         month:"January",
         year:"2016",
         categories:["Pepe", "Edgy"],
+        meme_id:"23",
+        stars: 2
+    },
+    {
+        image:"satanic-music.jpg",
+        title:"Satanic-music",
+        month:"January",
+        year:"2017",
+        categories:["Edgy"],
         meme_id:"23",
         stars: 3
     },
